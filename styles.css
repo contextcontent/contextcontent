@@ -1,11 +1,36 @@
-body {
+html {
   border: none;
   margin: 0;
   padding: 0;
 }
 
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .container {
+  padding: 22% 0%;
+
   width: 100vw;
   height: 100vh;
+
   background-color: black;
+  vertical-align: middle;
+}
+
+h1 {
+  border: none;
+  margin: 0;
+  padding: 0px 0px 20px 0;
+  font-size: 3rem;
+  font-family: 'urw-din', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'urw-din', sans-serif;
+  margin: 0;
 }
