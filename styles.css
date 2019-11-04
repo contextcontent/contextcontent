@@ -40,6 +40,10 @@ body {
   display: inline-block;
 }
 
+.viewport {
+  position: absolute;
+}
+
 h1 {
   border: none;
   margin: 0;
