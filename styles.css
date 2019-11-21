@@ -44,21 +44,31 @@ body {
   position: absolute;
 }
 
+.backingbox {
+  border: none;
+  margin: 0;
+  padding: 0px;
+  
+  position: absolute;
+  background-color: white;
+  display: block;
+}
+
 h1 {
   border: none;
   margin: 0;
   padding: 10px;
   
-  position: absolute;
+  position: relative;
+  vertical-align: middle;
 
-  background-color: white;
   color: black;
 
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
-  font-family: 'urw-din', sans-serif;
+  font-family: 'nimbus-sans', sans-serif;
 
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 h2 {
@@ -66,18 +76,17 @@ h2 {
   margin: 0;
   padding: 10px;
 
-  position: absolute;
+  position: relative;
 
-  background-color: white;
   color: black;
 
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-family: 'urw-din', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'nimbus-sans', sans-serif;
 
   line-height: 1.5rem;
 
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 p {
@@ -85,14 +94,13 @@ p {
   margin: 0;
   padding: 10px;
 
-  position: absolute;
+  position: relative;
 
-  background-color: white;
   color: black;
 
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 400;
-  font-family: 'urw-din', sans-serif;
+  font-family: 'nimbus-sans', sans-serif;
 
   display: inline-block;
 }
@@ -108,4 +116,12 @@ a:link {
 
 a:hover{
   filter: invert(100%);
+}
+
+img {
+  border: none;
+  margin: 0;
+  padding: 0px;
+
+  position: absolute;
 }
