@@ -52,6 +52,8 @@ body {
   position: absolute;
   background-color: white;
   display: block;
+
+  box-shadow: 7px 7px 3px rgba(0, 0, 0, .75);
 }
 
 h1 {
@@ -124,4 +126,6 @@ img {
   padding: 0px;
 
   position: absolute;
+
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, .75);
 }
