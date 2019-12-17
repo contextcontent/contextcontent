@@ -116,7 +116,7 @@ a:link {
   text-decoration: none;
 }
 
-a:hover{
+.textlink:hover{
   filter: invert(100%);
 }
 
@@ -128,4 +128,8 @@ img {
   position: absolute;
 
   box-shadow: 7px 7px rgba(0, 0, 0, 1);
+}
+
+.interview-link:hover {
+  filter: blur(4px);
 }
